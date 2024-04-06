@@ -1,5 +1,3 @@
-provide-module sort-selections %{
-
 define-command sort-selections -params .. -docstring '
 sort-selections [<switches>]: sort the selections based on their content
 Sorting is done numerically if possible, otherwise lexicographically
@@ -237,7 +235,3 @@ print("' ;");
 EOF
     }
 }
-
-}
-
-require-module sort-selections
